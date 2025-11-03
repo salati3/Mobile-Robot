@@ -1,0 +1,1 @@
+/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description/ament_cmake_environment_hooks/local_setup.zsh

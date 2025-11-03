@@ -1,0 +1,9 @@
+/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description/CMakeFiles/uninstall.dir
+/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description/CMakeFiles/rovo_ur_description_uninstall.dir
+/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description/CMakeFiles/test.dir
+/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description/CMakeFiles/edit_cache.dir
+/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description/CMakeFiles/rebuild_cache.dir
+/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description/CMakeFiles/list_install_components.dir
+/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description/CMakeFiles/install.dir
+/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description/CMakeFiles/install/local.dir
+/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description/CMakeFiles/install/strip.dir

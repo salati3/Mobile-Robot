@@ -1,0 +1,4 @@
+source;share/rovo_bringup/local_setup.bash
+source;share/rovo_bringup/local_setup.dsv
+source;share/rovo_bringup/local_setup.sh
+source;share/rovo_bringup/local_setup.zsh

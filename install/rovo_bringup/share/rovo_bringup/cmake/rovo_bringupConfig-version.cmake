@@ -1,0 +1,1 @@
+/home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup/ament_cmake_core/rovo_bringupConfig-version.cmake
