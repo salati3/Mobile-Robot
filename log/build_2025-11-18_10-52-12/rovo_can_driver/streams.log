@@ -1,0 +1,37 @@
+[0.015s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver -- -j44 -l44
+[0.116s] [ 50%] Building CXX object CMakeFiles/rovo_can_driver.dir/src/rovo_can_system.cpp.o
+[6.804s] [100%] Linking CXX shared library librovo_can_driver.so
+[7.080s] [100%] Built target rovo_can_driver
+[7.094s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver -- -j44 -l44
+[7.107s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver
+[7.115s] -- Install configuration: ""
+[7.116s] -- Execute custom install script
+[7.116s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver//plugin_description.xml
+[7.117s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp
+[7.117s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/plugin_description.xml
+[7.118s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/environment/library_path.sh
+[7.118s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/environment/library_path.dsv
+[7.118s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/ament_index/resource_index/package_run_dependencies/rovo_can_driver
+[7.119s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/ament_index/resource_index/parent_prefix_path/rovo_can_driver
+[7.119s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/environment/ament_prefix_path.sh
+[7.119s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/environment/ament_prefix_path.dsv
+[7.120s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/environment/path.sh
+[7.120s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/environment/path.dsv
+[7.120s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/local_setup.bash
+[7.121s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/local_setup.sh
+[7.121s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/local_setup.zsh
+[7.121s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/local_setup.dsv
+[7.122s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/package.dsv
+[7.134s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/ament_index/resource_index/packages/rovo_can_driver
+[7.134s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rovo_can_driver
+[7.135s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/cmake/ament_cmake_export_targets-extras.cmake
+[7.135s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.136s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[7.136s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/cmake/rovo_can_driverConfig.cmake
+[7.136s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/cmake/rovo_can_driverConfig-version.cmake
+[7.136s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/package.xml
+[7.137s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/lib/librovo_can_driver.so
+[7.138s] -- Set non-toolchain portion of runtime path of "/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/lib/librovo_can_driver.so" to ""
+[7.138s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/cmake/export_rovo_can_driverExport.cmake
+[7.139s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/cmake/export_rovo_can_driverExport-noconfig.cmake
+[7.140s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver

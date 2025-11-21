@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rovo_can_driver</name>
+  <version>0.0.1</version>
+  <description>ros2_control hardware interface for the ROVO mobile base over CAN.</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rclcpp</build_depend>
+  <exec_depend>rclcpp</exec_depend>
+
+  <build_depend>rclcpp_lifecycle</build_depend>
+  <exec_depend>rclcpp_lifecycle</exec_depend>
+
+  <build_depend>hardware_interface</build_depend>
+  <exec_depend>hardware_interface</exec_depend>
+
+  <build_depend>pluginlib</build_depend>
+  <exec_depend>pluginlib</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <!-- Connect hardware_interface with your plugin XML -->
+    <hardware_interface plugin="${prefix}/plugin_description.xml" />
+  </export>
+</package>

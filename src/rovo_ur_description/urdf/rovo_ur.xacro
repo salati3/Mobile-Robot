@@ -117,6 +117,7 @@
     <dynamics damping="0.02" friction="0.0"/>
   </joint>
 
+
   <!-- ros2_control: gz-sim system -->
   <ros2_control name="rovo_system" type="system">
     <hardware>
@@ -133,6 +134,8 @@
       <state_interface   name="velocity"/>
     </joint>
   </ros2_control>
+
+
 
   <!-- GZ system plugin: starts controller_manager inside gz and loads controllers.yaml -->
   <gazebo>

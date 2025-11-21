@@ -1,0 +1,30 @@
+[0.020s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver -- -j44 -l44
+[0.066s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.128s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.151s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.218s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.235s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.400s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.403s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.520s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.643s] -- Found hardware_interface: 4.38.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[2.177s] -- Configuring done (2.1s)
+[2.182s] [31mCMake Error at CMakeLists.txt:14 (add_library):
+[2.182s]   Cannot find source file:
+[2.182s] 
+[2.183s]     src/rovo_can_system.cpp
+[2.183s] 
+[2.183s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[2.183s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[2.184s]   .f95 .f03 .hip .ispc
+[2.184s] 
+[2.184s] [0m
+[2.188s] [31mCMake Error at CMakeLists.txt:14 (add_library):
+[2.188s]   No SOURCES given to target: rovo_can_driver
+[2.188s] 
+[2.189s] [0m
+[2.189s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.201s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[2.204s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver -- -j44 -l44

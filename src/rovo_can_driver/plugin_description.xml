@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<library path="rovo_can_driver">
+  <class
+    name="rovo_can_driver/RovoCanSystem"
+    type="rovo_can_driver::RovoCanSystem"
+    base_class_type="hardware_interface::SystemInterface">
+    <description>
+      ros2_control SystemInterface that exchanges wheel velocities and commands with the ROVO base
+      via raw SocketCAN, including the external control unlock handshake and RPM setpoints.
+    </description>
+  </class>
+</library>

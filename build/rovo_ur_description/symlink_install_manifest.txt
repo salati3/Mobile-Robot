@@ -1,3 +1,4 @@
+/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/urdf/kiros.xacro
 /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/urdf/rovo_ur.xacro
 /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/meshes/rovo.dae
 /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/rviz/rovo_ur.rviz

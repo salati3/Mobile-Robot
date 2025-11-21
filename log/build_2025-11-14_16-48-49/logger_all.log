@@ -1,0 +1,280 @@
+[0.134s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.134s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=44, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d0b06aa1f70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d0b06b1a300>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d0b06b1a300>>, mixin_verb=('build',))
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.180s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kevin/Desktop/rovo_ur_ws'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_bringup) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_bringup) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_bringup) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_bringup) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_bringup) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_bringup) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_bringup) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_bringup) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rovo_bringup' with type 'ros.ament_cmake' and name 'rovo_bringup'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_can_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_can_driver) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_can_driver) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_can_driver) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_can_driver) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_can_driver) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_can_driver) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_can_driver) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_can_driver) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rovo_can_driver' with type 'ros.ament_cmake' and name 'rovo_can_driver'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_ur_description) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_ur_description) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_ur_description) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_ur_description) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_ur_description) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_ur_description) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_ur_description) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_ur_description) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/rovo_ur_description) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rovo_ur_description' with type 'ros.ament_cmake' and name 'rovo_ur_description'
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.239s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.241s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/kevin/Desktop/rovo_ur_ws/install
+[0.244s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 369 installed packages in /opt/ros/jazzy
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rovo_bringup' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rovo_bringup' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rovo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rovo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rovo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rovo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rovo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rovo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rovo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'rovo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup', 'merge_install': False, 'path': '/home/kevin/Desktop/rovo_ur_ws/src/rovo_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rovo_can_driver' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rovo_can_driver' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rovo_can_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rovo_can_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rovo_can_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rovo_can_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rovo_can_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rovo_can_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rovo_can_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'rovo_can_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver', 'merge_install': False, 'path': '/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver', 'symlink_install': True, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rovo_ur_description' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rovo_ur_description' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rovo_ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rovo_ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rovo_ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rovo_ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rovo_ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rovo_ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rovo_ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'rovo_ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description', 'merge_install': False, 'path': '/home/kevin/Desktop/rovo_ur_ws/src/rovo_ur_description', 'symlink_install': True, 'test_result_base': None}
+[0.314s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.315s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.316s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kevin/Desktop/rovo_ur_ws/src/rovo_bringup' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kevin/Desktop/rovo_ur_ws/src/rovo_bringup'
+[0.319s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.324s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver' with build type 'ament_cmake'
+[0.324s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver'
+[0.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.329s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kevin/Desktop/rovo_ur_ws/src/rovo_ur_description' with build type 'ament_cmake'
+[0.330s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kevin/Desktop/rovo_ur_ws/src/rovo_ur_description'
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kevin/Desktop/rovo_ur_ws/src/rovo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup
+[0.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver
+[0.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kevin/Desktop/rovo_ur_ws/src/rovo_ur_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description
+[1.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kevin/Desktop/rovo_ur_ws/src/rovo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup
+[1.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup -- -j44 -l44
+[1.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup -- -j44 -l44
+[1.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup
+[1.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kevin/Desktop/rovo_ur_ws/src/rovo_ur_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description
+[1.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description -- -j44 -l44
+[1.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rovo_bringup)
+[1.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup
+[1.801s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup' for CMake module files
+[1.803s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup' for CMake config files
+[1.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('rovo_bringup', 'cmake_prefix_path')
+[1.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/hook/cmake_prefix_path.ps1'
+[1.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/hook/cmake_prefix_path.dsv'
+[1.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/hook/cmake_prefix_path.sh'
+[1.810s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/bin'
+[1.810s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/lib/pkgconfig/rovo_bringup.pc'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/lib/python3.12/site-packages'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/bin'
+[1.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/package.ps1'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/package.dsv'
+[1.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/package.sh'
+[1.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/package.bash'
+[1.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/package.zsh'
+[1.823s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/colcon-core/packages/rovo_bringup)
+[1.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rovo_bringup)
+[1.825s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup' for CMake module files
+[1.826s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup' for CMake config files
+[1.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('rovo_bringup', 'cmake_prefix_path')
+[1.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/hook/cmake_prefix_path.ps1'
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/hook/cmake_prefix_path.dsv'
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/hook/cmake_prefix_path.sh'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/bin'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/lib/pkgconfig/rovo_bringup.pc'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/lib/python3.12/site-packages'
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/bin'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/package.ps1'
+[1.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/package.dsv'
+[1.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/package.sh'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/package.bash'
+[1.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/package.zsh'
+[1.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/colcon-core/packages/rovo_bringup)
+[1.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description -- -j44 -l44
+[1.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description
+[1.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rovo_ur_description)
+[1.887s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description' for CMake module files
+[1.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description
+[1.891s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description' for CMake config files
+[1.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('rovo_ur_description', 'cmake_prefix_path')
+[1.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/hook/cmake_prefix_path.ps1'
+[1.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/hook/cmake_prefix_path.dsv'
+[1.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/hook/cmake_prefix_path.sh'
+[1.900s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/bin'
+[1.900s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/lib/pkgconfig/rovo_ur_description.pc'
+[1.901s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/lib/python3.12/site-packages'
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/bin'
+[1.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/package.ps1'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/package.dsv'
+[1.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/package.sh'
+[1.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/package.bash'
+[1.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/package.zsh'
+[1.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/colcon-core/packages/rovo_ur_description)
+[1.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rovo_ur_description)
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description' for CMake module files
+[1.916s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description' for CMake config files
+[1.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('rovo_ur_description', 'cmake_prefix_path')
+[1.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/hook/cmake_prefix_path.ps1'
+[1.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/hook/cmake_prefix_path.dsv'
+[1.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/hook/cmake_prefix_path.sh'
+[1.923s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/bin'
+[1.923s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/lib/pkgconfig/rovo_ur_description.pc'
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/lib/python3.12/site-packages'
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/bin'
+[1.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/package.ps1'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/package.dsv'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/package.sh'
+[1.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/package.bash'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/package.zsh'
+[1.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/colcon-core/packages/rovo_ur_description)
+[2.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver
+[2.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver -- -j44 -l44
+[9.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver -- -j44 -l44
+[9.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver
+[9.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rovo_can_driver)
+[9.588s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver' for CMake module files
+[9.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver
+[9.591s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver' for CMake config files
+[9.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('rovo_can_driver', 'cmake_prefix_path')
+[9.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/hook/cmake_prefix_path.ps1'
+[9.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/hook/cmake_prefix_path.dsv'
+[9.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/hook/cmake_prefix_path.sh'
+[9.596s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/lib'
+[9.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('rovo_can_driver', 'ld_library_path_lib')
+[9.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/hook/ld_library_path_lib.ps1'
+[9.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/hook/ld_library_path_lib.dsv'
+[9.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/hook/ld_library_path_lib.sh'
+[9.600s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/bin'
+[9.600s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/lib/pkgconfig/rovo_can_driver.pc'
+[9.601s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/lib/python3.12/site-packages'
+[9.602s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/bin'
+[9.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/package.ps1'
+[9.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/package.dsv'
+[9.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/package.sh'
+[9.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/package.bash'
+[9.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/package.zsh'
+[9.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/colcon-core/packages/rovo_can_driver)
+[9.610s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rovo_can_driver)
+[9.610s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver' for CMake module files
+[9.612s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver' for CMake config files
+[9.613s] Level 1:colcon.colcon_core.shell:create_environment_hook('rovo_can_driver', 'cmake_prefix_path')
+[9.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/hook/cmake_prefix_path.ps1'
+[9.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/hook/cmake_prefix_path.dsv'
+[9.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/hook/cmake_prefix_path.sh'
+[9.617s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/lib'
+[9.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('rovo_can_driver', 'ld_library_path_lib')
+[9.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/hook/ld_library_path_lib.ps1'
+[9.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/hook/ld_library_path_lib.dsv'
+[9.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/hook/ld_library_path_lib.sh'
+[9.621s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/bin'
+[9.621s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/lib/pkgconfig/rovo_can_driver.pc'
+[9.622s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/lib/python3.12/site-packages'
+[9.623s] Level 1:colcon.colcon_core.environment:checking '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/bin'
+[9.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/package.ps1'
+[9.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/package.dsv'
+[9.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/package.sh'
+[9.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/package.bash'
+[9.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/package.zsh'
+[9.630s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/colcon-core/packages/rovo_can_driver)
+[9.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.632s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.632s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.647s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.647s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.675s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.675s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kevin/Desktop/rovo_ur_ws/install/local_setup.ps1'
+[9.678s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kevin/Desktop/rovo_ur_ws/install/_local_setup_util_ps1.py'
+[9.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kevin/Desktop/rovo_ur_ws/install/setup.ps1'
+[9.684s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kevin/Desktop/rovo_ur_ws/install/local_setup.sh'
+[9.686s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kevin/Desktop/rovo_ur_ws/install/_local_setup_util_sh.py'
+[9.689s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kevin/Desktop/rovo_ur_ws/install/setup.sh'
+[9.693s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kevin/Desktop/rovo_ur_ws/install/local_setup.bash'
+[9.695s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kevin/Desktop/rovo_ur_ws/install/setup.bash'
+[9.700s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kevin/Desktop/rovo_ur_ws/install/local_setup.zsh'
+[9.702s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kevin/Desktop/rovo_ur_ws/install/setup.zsh'

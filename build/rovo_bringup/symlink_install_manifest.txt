@@ -1,4 +1,5 @@
 /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/launch/__pycache__/view_rovo.launch.cpython-312.pyc
+/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/launch/real_rovo.launch.py
 /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/launch/view_rovo.launch.py
 /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/config/controllers.yaml
 /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/ament_index/resource_index/package_run_dependencies/rovo_bringup

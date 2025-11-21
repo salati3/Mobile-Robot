@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000251] (-) JobUnselected: {'identifier': 'rovo_bringup'}
+[0.000659] (-) JobUnselected: {'identifier': 'rovo_ur_description'}
+[0.000905] (rovo_can_driver) JobQueued: {'identifier': 'rovo_can_driver', 'dependencies': OrderedDict()}
+[0.001119] (rovo_can_driver) JobStarted: {'identifier': 'rovo_can_driver'}
+[0.013481] (rovo_can_driver) JobProgress: {'identifier': 'rovo_can_driver', 'progress': 'cmake'}
+[0.014459] (rovo_can_driver) JobProgress: {'identifier': 'rovo_can_driver', 'progress': 'build'}
+[0.015424] (rovo_can_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver', '--', '-j44', '-l44'], 'cwd': '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/kevin', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CUDACXX': '/usr/local/cuda-12.1/bin/nvcc', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'kevin', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'SSH_AGENT_PID': '2852', 'XDG_SESSION_TYPE': 'x11', 'CUMM_CUDA_HOME': '/usr/local/cuda-12.1', 'SHLVL': '1', 'HOME': '/home/kevin', 'CHROME_DESKTOP': 'code.desktop', 'DESKTOP_SESSION': 'xfce', 'PYENV_SHELL': 'bash', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'VSCODE_IPC_HOOK': '/run/user/1001/vscode-d08abc7e-1.10-main.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/home/kevin/Desktop/rovo_ur_ws/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'kevin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'XDG_SESSION_ID': 'c2', 'PATH': '/home/kevin/.local/bin:/tmp/.tmp6Yg2Xi:/home/kevin/.local/bin:/home/kevin/.pyenv/shims:/home/kevin/.pyenv/bin:/usr/local/cuda-12.1/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kevin/.vscode/extensions/openai.chatgpt-0.4.43-linux-x64/bin/linux-x86_64', 'SESSION_MANAGER': 'local/EN-N-0040:@/tmp/.ICE-unix/2874,unix/EN-N-0040:/tmp/.ICE-unix/2874', 'XDG_MENU_PREFIX': 'xfce-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'XDG_RUNTIME_DIR': '/run/user/1001', 'GDK_BACKEND': 'x11', 'DISPLAY': ':10.0', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XMODIFIERS': '@im=ibus', 'SSH_AUTH_SOCK': '/tmp/ssh-H8DOUTvJX838/agent.2555', 'AMENT_PREFIX_PATH': '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver:/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'XFCE', 'UID': '1001', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'CUDA_HOME': '/usr/local/cuda-12.1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/kevin/.config/Code/CachedData/7d842fb85a0275a4a8e4d7e040d2625abbf7f084', 'CLUTTER_IM_MODULE': 'ibus', 'PYENV_ROOT': '/home/kevin/.pyenv', 'XDG_DATA_DIRS': '/usr/share/xfce:/usr/share/gnome:/home/kevin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver:/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'VSCODE_PID': '5044'}), 'shell': False}
+[0.099641] (-) TimerEvent: {}
+[0.116429] (rovo_can_driver) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/rovo_can_driver.dir/src/rovo_can_system.cpp.o\n'}
+[0.199826] (-) TimerEvent: {}
+[0.300141] (-) TimerEvent: {}
+[0.400432] (-) TimerEvent: {}
+[0.500739] (-) TimerEvent: {}
+[0.601093] (-) TimerEvent: {}
+[0.701367] (-) TimerEvent: {}
+[0.801730] (-) TimerEvent: {}
+[0.902096] (-) TimerEvent: {}
+[1.002419] (-) TimerEvent: {}
+[1.102775] (-) TimerEvent: {}
+[1.203090] (-) TimerEvent: {}
+[1.303397] (-) TimerEvent: {}
+[1.403705] (-) TimerEvent: {}
+[1.504059] (-) TimerEvent: {}
+[1.604355] (-) TimerEvent: {}
+[1.704677] (-) TimerEvent: {}
+[1.805043] (-) TimerEvent: {}
+[1.905388] (-) TimerEvent: {}
+[2.005707] (-) TimerEvent: {}
+[2.106055] (-) TimerEvent: {}
+[2.206374] (-) TimerEvent: {}
+[2.306697] (-) TimerEvent: {}
+[2.407054] (-) TimerEvent: {}
+[2.507415] (-) TimerEvent: {}
+[2.607730] (-) TimerEvent: {}
+[2.708094] (-) TimerEvent: {}
+[2.808434] (-) TimerEvent: {}
+[2.908737] (-) TimerEvent: {}
+[3.009079] (-) TimerEvent: {}
+[3.109405] (-) TimerEvent: {}
+[3.209707] (-) TimerEvent: {}
+[3.310067] (-) TimerEvent: {}
+[3.410404] (-) TimerEvent: {}
+[3.510714] (-) TimerEvent: {}
+[3.611072] (-) TimerEvent: {}
+[3.711425] (-) TimerEvent: {}
+[3.811761] (-) TimerEvent: {}
+[3.912104] (-) TimerEvent: {}
+[4.012363] (-) TimerEvent: {}
+[4.112621] (-) TimerEvent: {}
+[4.212912] (-) TimerEvent: {}
+[4.313212] (-) TimerEvent: {}
+[4.413530] (-) TimerEvent: {}
+[4.513840] (-) TimerEvent: {}
+[4.614181] (-) TimerEvent: {}
+[4.714538] (-) TimerEvent: {}
+[4.814864] (-) TimerEvent: {}
+[4.915110] (-) TimerEvent: {}
+[5.015478] (-) TimerEvent: {}
+[5.115789] (-) TimerEvent: {}
+[5.216122] (-) TimerEvent: {}
+[5.316458] (-) TimerEvent: {}
+[5.416787] (-) TimerEvent: {}
+[5.517109] (-) TimerEvent: {}
+[5.617423] (-) TimerEvent: {}
+[5.717710] (-) TimerEvent: {}
+[5.818073] (-) TimerEvent: {}
+[5.918374] (-) TimerEvent: {}
+[6.018677] (-) TimerEvent: {}
+[6.118965] (-) TimerEvent: {}
+[6.219268] (-) TimerEvent: {}
+[6.319543] (-) TimerEvent: {}
+[6.419799] (-) TimerEvent: {}
+[6.520073] (-) TimerEvent: {}
+[6.620342] (-) TimerEvent: {}
+[6.720654] (-) TimerEvent: {}
+[6.804517] (rovo_can_driver) StdoutLine: {'line': b'[100%] Linking CXX shared library librovo_can_driver.so\n'}
+[6.820816] (-) TimerEvent: {}
+[6.921081] (-) TimerEvent: {}
+[7.021443] (-) TimerEvent: {}
+[7.080764] (rovo_can_driver) StdoutLine: {'line': b'[100%] Built target rovo_can_driver\n'}
+[7.095015] (rovo_can_driver) CommandEnded: {'returncode': 0}
+[7.096337] (rovo_can_driver) JobProgress: {'identifier': 'rovo_can_driver', 'progress': 'install'}
+[7.107227] (rovo_can_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver'], 'cwd': '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/kevin', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CUDACXX': '/usr/local/cuda-12.1/bin/nvcc', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'kevin', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'SSH_AGENT_PID': '2852', 'XDG_SESSION_TYPE': 'x11', 'CUMM_CUDA_HOME': '/usr/local/cuda-12.1', 'SHLVL': '1', 'HOME': '/home/kevin', 'CHROME_DESKTOP': 'code.desktop', 'DESKTOP_SESSION': 'xfce', 'PYENV_SHELL': 'bash', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'VSCODE_IPC_HOOK': '/run/user/1001/vscode-d08abc7e-1.10-main.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/home/kevin/Desktop/rovo_ur_ws/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'kevin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'XDG_SESSION_ID': 'c2', 'PATH': '/home/kevin/.local/bin:/tmp/.tmp6Yg2Xi:/home/kevin/.local/bin:/home/kevin/.pyenv/shims:/home/kevin/.pyenv/bin:/usr/local/cuda-12.1/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kevin/.vscode/extensions/openai.chatgpt-0.4.43-linux-x64/bin/linux-x86_64', 'SESSION_MANAGER': 'local/EN-N-0040:@/tmp/.ICE-unix/2874,unix/EN-N-0040:/tmp/.ICE-unix/2874', 'XDG_MENU_PREFIX': 'xfce-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'XDG_RUNTIME_DIR': '/run/user/1001', 'GDK_BACKEND': 'x11', 'DISPLAY': ':10.0', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XMODIFIERS': '@im=ibus', 'SSH_AUTH_SOCK': '/tmp/ssh-H8DOUTvJX838/agent.2555', 'AMENT_PREFIX_PATH': '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver:/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'XFCE', 'UID': '1001', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'CUDA_HOME': '/usr/local/cuda-12.1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/kevin/.config/Code/CachedData/7d842fb85a0275a4a8e4d7e040d2625abbf7f084', 'CLUTTER_IM_MODULE': 'ibus', 'PYENV_ROOT': '/home/kevin/.pyenv', 'XDG_DATA_DIRS': '/usr/share/xfce:/usr/share/gnome:/home/kevin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver:/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'VSCODE_PID': '5044'}), 'shell': False}
+[7.116156] (rovo_can_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.116849] (rovo_can_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.117315] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver//plugin_description.xml\n'}
+[7.117704] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp\n'}
+[7.118062] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/plugin_description.xml\n'}
+[7.118406] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/environment/library_path.sh\n'}
+[7.118765] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/environment/library_path.dsv\n'}
+[7.119150] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/ament_index/resource_index/package_run_dependencies/rovo_can_driver\n'}
+[7.119506] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/ament_index/resource_index/parent_prefix_path/rovo_can_driver\n'}
+[7.119864] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/environment/ament_prefix_path.sh\n'}
+[7.120228] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/environment/ament_prefix_path.dsv\n'}
+[7.120552] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/environment/path.sh\n'}
+[7.120891] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/environment/path.dsv\n'}
+[7.121258] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/local_setup.bash\n'}
+[7.121579] (-) TimerEvent: {}
+[7.121626] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/local_setup.sh\n'}
+[7.121852] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/local_setup.zsh\n'}
+[7.122143] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/local_setup.dsv\n'}
+[7.122428] (rovo_can_driver) StdoutLine: {'line': b'-- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/package.dsv\n'}
+[7.134599] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/ament_index/resource_index/packages/rovo_can_driver\n'}
+[7.135116] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rovo_can_driver\n'}
+[7.135638] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.136107] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.136506] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.136887] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/cmake/rovo_can_driverConfig.cmake\n'}
+[7.137165] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/cmake/rovo_can_driverConfig-version.cmake\n'}
+[7.137375] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/package.xml\n'}
+[7.137587] (rovo_can_driver) StdoutLine: {'line': b'-- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/lib/librovo_can_driver.so\n'}
+[7.139090] (rovo_can_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/lib/librovo_can_driver.so" to ""\n'}
+[7.139330] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/cmake/export_rovo_can_driverExport.cmake\n'}
+[7.139535] (rovo_can_driver) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_driver/share/rovo_can_driver/cmake/export_rovo_can_driverExport-noconfig.cmake\n'}
+[7.141141] (rovo_can_driver) CommandEnded: {'returncode': 0}
+[7.203779] (rovo_can_driver) JobEnded: {'identifier': 'rovo_can_driver', 'rc': 0}
+[7.205216] (-) EventReactorShutdown: {}

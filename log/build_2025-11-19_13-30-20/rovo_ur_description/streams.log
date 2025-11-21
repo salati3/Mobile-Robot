@@ -1,0 +1,26 @@
+[0.018s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description -- -j44 -l44
+[0.090s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description -- -j44 -l44
+[0.091s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description
+[0.104s] -- Install configuration: ""
+[0.104s] -- Execute custom install script
+[0.104s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/urdf/kiros.xacro
+[0.105s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/urdf/rovo_ur.xacro
+[0.105s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/meshes/rovo.dae
+[0.105s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/rviz/rovo_ur.rviz
+[0.106s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/config/controllers.yaml
+[0.106s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/ament_index/resource_index/package_run_dependencies/rovo_ur_description
+[0.106s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/ament_index/resource_index/parent_prefix_path/rovo_ur_description
+[0.107s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/environment/ament_prefix_path.sh
+[0.107s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/environment/ament_prefix_path.dsv
+[0.107s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/environment/path.sh
+[0.107s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/environment/path.dsv
+[0.108s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/local_setup.bash
+[0.108s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/local_setup.sh
+[0.108s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/local_setup.zsh
+[0.108s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/local_setup.dsv
+[0.109s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/package.dsv
+[0.125s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/ament_index/resource_index/packages/rovo_ur_description
+[0.125s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/cmake/rovo_ur_descriptionConfig.cmake
+[0.126s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/cmake/rovo_ur_descriptionConfig-version.cmake
+[0.126s] -- Up-to-date symlink: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/package.xml
+[0.146s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description

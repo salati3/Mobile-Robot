@@ -1,0 +1,22 @@
+[1.449s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_bridge/build --no-deps symlink_data
+[1.947s] running develop
+[2.241s] running egg_info
+[2.242s] creating rovo_can_bridge.egg-info
+[2.269s] writing rovo_can_bridge.egg-info/PKG-INFO
+[2.270s] writing dependency_links to rovo_can_bridge.egg-info/dependency_links.txt
+[2.270s] writing requirements to rovo_can_bridge.egg-info/requires.txt
+[2.270s] writing top-level names to rovo_can_bridge.egg-info/top_level.txt
+[2.271s] writing manifest file 'rovo_can_bridge.egg-info/SOURCES.txt'
+[2.328s] reading manifest file 'rovo_can_bridge.egg-info/SOURCES.txt'
+[2.329s] writing manifest file 'rovo_can_bridge.egg-info/SOURCES.txt'
+[2.359s] running build_ext
+[2.359s] Creating /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge/lib/python3.12/site-packages/rovo-can-bridge.egg-link (link to .)
+[2.360s] 
+[2.360s] Installed /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_bridge
+[2.360s] running symlink_data
+[2.361s] creating /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge/share/ament_index
+[2.361s] creating /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge/share/ament_index/resource_index
+[2.361s] creating /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge/share/ament_index/resource_index/packages
+[2.361s] symbolically linking /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_bridge/resource/rovo_can_bridge -> /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge/share/ament_index/resource_index/packages
+[2.362s] symbolically linking /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_bridge/package.xml -> /home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge/share/rovo_can_bridge
+[2.389s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kevin/Desktop/rovo_ur_ws/install/rovo_can_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_bridge/build --no-deps symlink_data

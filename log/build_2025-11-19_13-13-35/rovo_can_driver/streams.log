@@ -1,0 +1,25 @@
+[0.019s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver -- -j44 -l44
+[0.120s] [ 50%] [32mBuilding CXX object CMakeFiles/rovo_can_driver.dir/src/rovo_can_system.cpp.o[0m
+[3.437s] [01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rovo_can_driver::RovoCanSystem::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.437s] [01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:306:16:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krovo_can_driver::RovoCanSystem::send_ec_tpdo1(uint8_t&, uint8_t&, int)[m[K’
+[3.437s]   306 |   [01;31m[Ksend_ec_tpdo1(requested_unlock_state, requested_drive_mode, 1)[m[K;
+[3.438s]       |   [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.438s] In file included from [01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:1[m[K:
+[3.438s] [01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:69:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rovo_can_driver::RovoCanSystem::[01;32m[Ksend_ec_tpdo1[m[K(uint8_t, uint8_t)[m[K’
+[3.438s]    69 |   void [01;36m[Ksend_ec_tpdo1[m[K(uint8_t requested_unlock_state, uint8_t requested_drive_mode);
+[3.439s]       |        [01;36m[K^~~~~~~~~~~~~[m[K
+[3.439s] [01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:69:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[3.441s] [01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:[m[K At global scope:
+[3.442s] [01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:414:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid rovo_can_driver::RovoCanSystem::[01;32m[Ksend_ec_tpdo1[m[K(uint8_t, uint8_t, uint8_t)[m[K’
+[3.442s]   414 | void [01;31m[KRovoCanSystem[m[K::send_ec_tpdo1(uint8_t requested_unlock_state, uint8_t requested_drive_mode, uint8_t requested_hv_state)
+[3.442s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[3.442s] [01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:69:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid rovo_can_driver::RovoCanSystem::[01;32m[Ksend_ec_tpdo1[m[K(uint8_t, uint8_t)[m[K’
+[3.443s]    69 |   void [01;36m[Ksend_ec_tpdo1[m[K(uint8_t requested_unlock_state, uint8_t requested_drive_mode);
+[3.443s]       |        [01;36m[K^~~~~~~~~~~~~[m[K
+[3.443s] [01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:30:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass rovo_can_driver::RovoCanSystem[m[K’ defined here
+[3.443s]    30 | class [01;36m[KRovoCanSystem[m[K : public hardware_interface::SystemInterface
+[3.443s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[5.188s] gmake[2]: *** [CMakeFiles/rovo_can_driver.dir/build.make:76: CMakeFiles/rovo_can_driver.dir/src/rovo_can_system.cpp.o] Error 1
+[5.189s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rovo_can_driver.dir/all] Error 2
+[5.189s] gmake: *** [Makefile:146: all] Error 2
+[5.193s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver -- -j44 -l44

@@ -1,0 +1,28 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/rovo_can_driver.dir/src/rovo_can_system.cpp.o[0m
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:665:39:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+  665 |   hardware_interface::SystemInterface)
+      |                                       [01;31m[K^[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:[m[K In member function ‘[01m[Kbool rovo_can_driver::RovoCanSystem::[01;32m[Kopen_can_interface[m[K()[m[K’:
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:393:3:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+  393 |   [01;31m[KRCLCPP_INFO[m[K(logger_, "CAN interface '%s' opened successfully", can_interface_name_.c नीटेडto make a mistake: The `frame.data[2]` is used for light/horn/HV state, so the graceful shutdown needs to use it with HV=0. This part is already correct in the file above.
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:393:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  393 |   RCLCPP_INFO[01;31m[K([m[Klogger_, "CAN interface '%s' opened successfully", can_interface_name_.c नीटेडto make a mistake: The `frame.data[2]` is used for light/horn/HV state, so the graceful shutdown needs to use it with HV=0. This part is already correct in the file above.
+      |              [01;31m[K^[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:346:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  346 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:[m[K At global scope:
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:393:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  393 |   RCLCPP_INFO[01;31m[K([m[Klogger_, "CAN interface '%s' opened successfully", can_interface_name_.c नीटेडto make a mistake: The `frame.data[2]` is used for light/horn/HV state, so the graceful shutdown needs to use it with HV=0. This part is already correct in the file above.
+      |              [01;31m[K^[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:19:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   19 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:[m[K In member function ‘[01m[Kbool rovo_can_driver::RovoCanSystem::[01;32m[Kopen_can_interface[m[K()[m[K’:
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:392:18:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  392 |   [01;35m[Kcan_connected_ = true[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rovo_can_driver.dir/build.make:76: CMakeFiles/rovo_can_driver.dir/src/rovo_can_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rovo_can_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

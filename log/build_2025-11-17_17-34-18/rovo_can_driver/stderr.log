@@ -1,0 +1,133 @@
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn rovo_can_driver::RovoCanSystem::[01;32m[Kon_init[m[K(const hardware_interface::HardwareComponentInterfaceParams&)[m[K’:
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:55:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable_tx_[m[K’ was not declared in this scope
+   55 |       [01;31m[Kenable_tx_[m[K = (value == "true" || value == "True" || value == "1");
+      |       [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:9[m[K,
+                 from [01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:1[m[K:
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable_tx_[m[K’ was not declared in this scope
+   85 |     [01;31m[Kenable_tx_[m[K ? "true" : "false");
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rovo_can_driver::RovoCanSystem::[01;32m[Kread[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:179:22:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[Krovo_can_driver::can_frame frame[m[K’ has incomplete type and cannot be defined
+  179 |     struct can_frame [01;31m[Kframe[m[K;
+      |                      [01;31m[K^~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:196:40:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[Krovo_can_driver::can_frame[m[K’
+  196 |     if (static_cast<size_t>(nbytes) == [01;31m[Ksizeof(struct can_frame)[m[K) {
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rovo_can_driver::RovoCanSystem::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:227:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable_tx_[m[K’ was not declared in this scope
+  227 |   if (![01;31m[Kenable_tx_[m[K) {
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:231:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_safe_tx_frame[m[K’ was not declared in this scope; did you mean ‘[01m[Ksend_can_frame[m[K’?
+  231 |   [01;31m[Ksend_safe_tx_frame[m[K();
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Ksend_can_frame[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:[m[K In member function ‘[01m[Kvoid rovo_can_driver::RovoCanSystem::[01;32m[Kprocess_can_frame[m[K(const rovo_can_driver::can_frame&)[m[K’:
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:295:19:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  295 |   const auto id = [01;31m[Kframe[m[K.can_id & CAN_SFF_MASK;
+      |                   [01;31m[K^~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:300:11:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  300 |       if ([01;31m[Kframe[m[K.can_dlc >= 7) {
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:301:26:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  301 |         main_state_    = [01;31m[Kframe[m[K.data[0];
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:302:26:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  302 |         driving_stage_ = [01;31m[Kframe[m[K.data[1];
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:303:26:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  303 |         unlock_state_  = [01;31m[Kframe[m[K.data[2];
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:304:26:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  304 |         drive_mode_    = [01;31m[Kframe[m[K.data[6];
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:311:11:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  311 |       if ([01;31m[Kframe[m[K.can_dlc >= 8) {
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:318:47:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  318 |         const int16_t speed_left_rpm   = le16([01;31m[Kframe[m[K.data[0], frame.data[1]);
+      |                                               [01;31m[K^~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:318:62:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  318 |        const int16_t speed_left_rpm   = le16(frame.data[0], [01;31m[Kframe[m[K.data[1]);
+      |                                                             [01;31m[K^~~~~[m[K
+
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:319:47:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  319 |         const int16_t speed_right_rpm  = le16([01;31m[Kframe[m[K.data[2], frame.data[3]);
+      |                                               [01;31m[K^~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:319:62:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  319 |        const int16_t speed_right_rpm  = le16(frame.data[2], [01;31m[Kframe[m[K.data[3]);
+      |                                                             [01;31m[K^~~~~[m[K
+
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:320:47:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  320 |         const int16_t batt_voltage_raw = le16([01;31m[Kframe[m[K.data[4], frame.data[5]);
+      |                                               [01;31m[K^~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:320:62:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  320 |        const int16_t batt_voltage_raw = le16(frame.data[4], [01;31m[Kframe[m[K.data[5]);
+      |                                                             [01;31m[K^~~~~[m[K
+
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:321:47:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  321 |         const int16_t batt_current_raw = le16([01;31m[Kframe[m[K.data[6], frame.data[7]);
+      |                                               [01;31m[K^~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:321:62:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct rovo_can_driver::can_frame[m[K’
+  321 |        const int16_t batt_current_raw = le16(frame.data[6], [01;31m[Kframe[m[K.data[7]);
+      |                                                             [01;31m[K^~~~~[m[K
+
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:19:8:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rovo_can_driver::can_frame[m[K’
+   19 | struct [01;36m[Kcan_frame[m[K;
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:[m[K At global scope:
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:347:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid rovo_can_driver::RovoCanSystem::[01;32m[Ksend_safe_tx_frame[m[K()[m[K’
+  347 | void [01;31m[KRovoCanSystem[m[K::send_safe_tx_frame()
+      |      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/src/rovo_can_system.cpp:347:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid rovo_can_driver::RovoCanSystem::[01;32m[Ksend_safe_tx_frame[m[K()[m[K’
+[01m[K/home/kevin/Desktop/rovo_ur_ws/src/rovo_can_driver/include/rovo_can_driver/rovo_can_system.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass rovo_can_driver::RovoCanSystem[m[K’ defined here
+   21 | class [01;36m[KRovoCanSystem[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rovo_can_driver.dir/build.make:76: CMakeFiles/rovo_can_driver.dir/src/rovo_can_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rovo_can_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
