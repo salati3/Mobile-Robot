@@ -4,7 +4,7 @@ project(rovo_bringup)
 
 find_package(ament_cmake REQUIRED)
 # ONLY install what actually exists
-install(DIRECTORY launch config
+install(DIRECTORY launch config rviz maps
   DESTINATION share/${PROJECT_NAME}
 )
 

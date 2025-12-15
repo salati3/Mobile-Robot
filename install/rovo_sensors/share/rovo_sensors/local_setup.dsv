@@ -1,0 +1,2 @@
+source;share/rovo_sensors/environment/ament_prefix_path.sh
+source;share/rovo_sensors/environment/path.sh

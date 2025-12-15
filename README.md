@@ -20,7 +20,7 @@ ros2 topic pub -1 /diff_drive_base_controller/cmd_vel geometry_msgs/msg/TwistSta
 
 
 
-ros2 topic pub -r 10 /diff_drive_base_controller/cmd_vel geometry_msgs/msg/TwistStamped "{header: {stamp: {sec: 0, nanosec: 0}, frame_id: 'base_link'}, twist: {linear: {x: 0.5, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}}"
+ros2 topic pub -r 10 /diff_drive_base_controller/cmd_vel geometry_msgs/msg/TwistStamped "{header: {stamp: {sec: 0, nanosec: 0}, frame_id: 'base_link'}, twist: {linear: {x: 0.1, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}}"
 
 
 If you prefer plain `geometry_msgs/msg/Twist`, change `use_stamped_vel` to `false` in `controllers.yaml`.
@@ -40,3 +40,26 @@ sudo ip link set can0 up
 
 # 4) Check status
 ip -details link show can0
+
+
+candump cano
+
+Save the map:
+ros2 run nav2_map_server map_saver_cli -f $(ros2 pkg prefix --share rovo_ur_description)/maps/rovo_lab
+ros2 run nav2_map_server map_saver_cli -f my_complete_rovo_map
+
+
+Move the rovo via teleop:(Adjust the speeds)
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args \
+  -p stamped:=true \
+  -p frame_id:='base_link' \
+  -p repeat_rate:=30.0 \
+  -p key_timeout:=1.0 \
+  -p speed:=0.1 \
+  -p turn:=0.1 \
+  -r cmd_vel:=/diff_drive_base_controller/cmd_vel
+  -p scale_linear:=0.1 \
+  -p scale_angular:=0.05 \
+
+

@@ -16,20 +16,22 @@ diff_drive_base_controller:
   ros__parameters:
     publish_rate: 50.0
 
-    base_frame_id: base_link
-    odom_frame_id: odom
+    base_frame_id: "base_footprint"
+    odom_frame_id: "odom"
     enable_odom_tf: true
 
     left_wheel_names:  ["left_wheel_joint"]
     right_wheel_names: ["right_wheel_joint"]
 
-    wheel_separation: 0.80      # adjust to your real robot
-    wheel_radius: 0.12          # adjust to your real robot
+    wheel_separation: 0.80      # adjust to real robot
+    wheel_radius: 0.19         # adjust to real robot
+
+    wheel_radius_multiplier: 0.472
+    wheel_separation_multiplier: 2.796
 
     cmd_vel_timeout: 0.25
     use_stamped_vel: false
     open_loop: false
 
-    # depending on your URDF, you might also want:
-    # command_interfaces: ["velocity"]
-    # state_interfaces: ["position", "velocity"]
+    
+#

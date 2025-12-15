@@ -1,1 +1,1 @@
-/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rovo_can_driver
+rclcpp;rclcpp_lifecycle;hardware_interface;pluginlib

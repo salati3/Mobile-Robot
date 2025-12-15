@@ -1,0 +1,46 @@
+[0.023s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kevin/Desktop/rovo_ur_ws/src/rovo_sensors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors
+[0.043s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.007s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.020s] -- Found sick_safetyscanners2: 1.0.4 (/opt/ros/jazzy/share/sick_safetyscanners2/cmake)
+[1.081s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.099s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.120s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.332s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.335s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.450s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.724s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.949s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.950s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.951s] -- Added test 'lint_cmake' to check CMake code style
+[1.952s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.952s] -- Added test 'xmllint' to check XML markup files
+[1.954s] -- Configuring done (1.9s)
+[1.959s] -- Generating done (0.0s)
+[1.962s] -- Build files have been written to: /home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors
+[1.973s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kevin/Desktop/rovo_ur_ws/src/rovo_sensors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors
+[1.976s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors -- -j44 -l44
+[2.036s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors -- -j44 -l44
+[2.038s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors
+[2.050s] -- Install configuration: ""
+[2.050s] -- Execute custom install script
+[2.051s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/config/micro_scan.yaml
+[2.062s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/config/nano_scan.yaml
+[2.074s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/launch/lidars.launch.py
+[2.087s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/lib/rovo_sensors/scan_fixer.py
+[2.099s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/ament_index/resource_index/package_run_dependencies/rovo_sensors
+[2.111s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/ament_index/resource_index/parent_prefix_path/rovo_sensors
+[2.122s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/environment/ament_prefix_path.sh
+[2.134s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/environment/ament_prefix_path.dsv
+[2.148s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/environment/path.sh
+[2.160s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/environment/path.dsv
+[2.174s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/local_setup.bash
+[2.188s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/local_setup.sh
+[2.203s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/local_setup.zsh
+[2.215s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/local_setup.dsv
+[2.230s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/package.dsv
+[2.244s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/ament_index/resource_index/packages/rovo_sensors
+[2.257s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/cmake/rovo_sensorsConfig.cmake
+[2.274s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/cmake/rovo_sensorsConfig-version.cmake
+[2.286s] -- Symlinking: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/package.xml
+[2.305s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors

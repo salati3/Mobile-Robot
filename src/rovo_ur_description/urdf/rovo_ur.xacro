@@ -118,6 +118,31 @@
   </joint>
 
 
+
+    <!-- Front SICK microScan3 -->
+  <link name="micro_scan_link"/>
+
+  <joint name="micro_scan_joint" type="fixed">
+    <parent link="base_link"/>
+    <child  link="micro_scan_link"/>
+    <!-- xyz in meters, rpy in radians -->
+    <!-- Example: 0.40 m in front of base_link origin, 0.30 m high -->
+    <origin xyz="0.40 0.00 0.30" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Rear SICK nanoScan3 -->
+  <link name="nano_scan_link"/>
+
+  <joint name="nano_scan_joint" type="fixed">
+    <parent link="base_link"/>
+    <child  link="nano_scan_link"/>
+    <!-- Example: 0.40 m behind base_link origin, same height, facing backwards -->
+    <origin xyz="-0.40 0.00 0.30" rpy="0 0 3.14159"/>
+  </joint>
+
+
+
+
   <!-- ros2_control: gz-sim system -->
   <ros2_control name="rovo_system" type="system">
     <hardware>

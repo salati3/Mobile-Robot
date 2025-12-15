@@ -1,0 +1,26 @@
+micro_scan:
+  ros__parameters:
+    # --- NETWORK ---
+    sensor_ip: "10.161.130.32"      # microScan3 IP
+    host_ip:   "10.161.130.221"     # your PC IP
+    interface_ip: "0.0.0.0"         # leave like this, router IP not needed
+    host_udp_port: 6060             # or 0 to let OS choose a port
+
+    # --- FRAMES ---
+    frame_id: "micro_scan_link"
+
+    # --- TIMING / FOV ---
+    skip: 0
+    angle_start: 0.0
+    angle_end: 0.0
+    min_intensities: 0.0
+
+    # --- WHAT TO PUBLISH ---
+    channel_enabled: false
+    general_system_state: false
+    derived_settings: false
+    measurement_data: true
+    intrusion_data: true
+    application_io_data: false
+
+    use_persistent_config: false

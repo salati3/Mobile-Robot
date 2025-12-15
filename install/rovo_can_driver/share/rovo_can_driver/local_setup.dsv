@@ -1,1 +1,3 @@
-/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver/ament_cmake_environment_hooks/local_setup.dsv
+source;share/rovo_can_driver/environment/ament_prefix_path.sh
+source;share/rovo_can_driver/environment/library_path.sh
+source;share/rovo_can_driver/environment/path.sh

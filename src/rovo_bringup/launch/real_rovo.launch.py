@@ -15,6 +15,7 @@ def generate_launch_description():
     description_package = LaunchConfiguration("description_package")
     description_file = LaunchConfiguration("description_file")
     controllers_file = LaunchConfiguration("controllers_file")
+    controllers_file = PathJoinSubstitution([description_package, "config", "controllers.yaml"])
 
     declare_use_sim_time = DeclareLaunchArgument(
         "use_sim_time",
@@ -80,15 +81,20 @@ def generate_launch_description():
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
         executable="spawner",
-        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
+        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager" , "--param-file", controllers_file],
         output="both",
     )
 
     # --- Spawner: diff_drive_base_controller ---
+    # --- Spawner: diff_drive_base_controller ---
     diff_drive_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
-        arguments=["diff_drive_base_controller", "--controller-manager", "/controller_manager"],
+        arguments=[
+            "diff_drive_base_controller", 
+            "--controller-manager", "/controller_manager",
+            "--param-file", controllers_file       # <--- THIS IS THE FIX
+        ],
         output="both",
     )
 

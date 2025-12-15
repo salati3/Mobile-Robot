@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -292,9 +292,6 @@ ament_cmake_DIR:PATH=/opt/ros/jazzy/share/ament_cmake/cmake
 //The directory containing a CMake configuration file for ament_cmake_core.
 ament_cmake_core_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_core/cmake
 
-//The directory containing a CMake configuration file for ament_cmake_cppcheck.
-ament_cmake_cppcheck_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake
-
 //The directory containing a CMake configuration file for ament_cmake_export_definitions.
 ament_cmake_export_definitions_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_export_definitions/cmake
 
@@ -316,9 +313,6 @@ ament_cmake_export_link_flags_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_export_l
 //The directory containing a CMake configuration file for ament_cmake_export_targets.
 ament_cmake_export_targets_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_export_targets/cmake
 
-//The directory containing a CMake configuration file for ament_cmake_flake8.
-ament_cmake_flake8_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_flake8/cmake
-
 //The directory containing a CMake configuration file for ament_cmake_gen_version_h.
 ament_cmake_gen_version_h_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_gen_version_h/cmake
 
@@ -327,12 +321,6 @@ ament_cmake_include_directories_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_includ
 
 //The directory containing a CMake configuration file for ament_cmake_libraries.
 ament_cmake_libraries_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_libraries/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_lint_cmake.
-ament_cmake_lint_cmake_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_pep257.
-ament_cmake_pep257_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_pep257/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_python.
 ament_cmake_python_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_python/cmake
@@ -343,29 +331,11 @@ ament_cmake_target_dependencies_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_target
 //The directory containing a CMake configuration file for ament_cmake_test.
 ament_cmake_test_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_test/cmake
 
-//The directory containing a CMake configuration file for ament_cmake_uncrustify.
-ament_cmake_uncrustify_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake
-
 //The directory containing a CMake configuration file for ament_cmake_version.
 ament_cmake_version_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_version/cmake
 
-//The directory containing a CMake configuration file for ament_cmake_xmllint.
-ament_cmake_xmllint_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_xmllint/cmake
-
 //The directory containing a CMake configuration file for ament_index_cpp.
 ament_index_cpp_DIR:PATH=/opt/ros/jazzy/share/ament_index_cpp/cmake
-
-//The directory containing a CMake configuration file for ament_lint_auto.
-ament_lint_auto_DIR:PATH=/opt/ros/jazzy/share/ament_lint_auto/cmake
-
-//Path to a program.
-ament_lint_cmake_BIN:FILEPATH=/opt/ros/jazzy/bin/ament_lint_cmake
-
-//The directory containing a CMake configuration file for ament_lint_common.
-ament_lint_common_DIR:PATH=/opt/ros/jazzy/share/ament_lint_common/cmake
-
-//Path to a program.
-ament_xmllint_BIN:FILEPATH=/opt/ros/jazzy/bin/ament_xmllint
 
 //The directory containing a CMake configuration file for boost_headers.
 boost_headers_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.83.0
@@ -589,9 +559,6 @@ urdfdom_DIR:PATH=/opt/ros/jazzy/lib/x86_64-linux-gnu/urdfdom/cmake
 //The directory containing a CMake configuration file for urdfdom_headers.
 urdfdom_headers_DIR:PATH=/opt/ros/jazzy/lib/x86_64-linux-gnu/urdfdom_headers/cmake
 
-//Path to a program.
-xmllint_BIN:FILEPATH=/usr/bin/xmllint
-
 
 ########################
 # INTERNAL cache entries
@@ -810,8 +777,6 @@ _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;64;32;;cpython-312-x86_64
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0206bbaf703fd01cabe78470867a4455
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=0
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: boost_headers_DIR

@@ -10,7 +10,7 @@
 
   <!-- Two-wheel (skid/diff) params -->
   <xacro:property name="wheel_separation" value="0.80"/>
-  <xacro:property name="wheel_radius"     value="0.12"/>
+  <xacro:property name="wheel_radius"     value="0.19"/>
   <xacro:property name="wheel_width"      value="0.06"/>
   <xacro:property name="wheel_x"          value="0.00"/>
   <xacro:property name="wheel_z"          value="0.12"/>
@@ -116,6 +116,19 @@
     <axis xyz="0 1 0"/>
     <dynamics damping="0.02" friction="0.0"/>
   </joint>
+
+
+
+  <!-- Rear SICK nanoScan3 -->
+  <link name="nano_scan_link"/>
+
+  <joint name="nano_scan_joint" type="fixed">
+    <parent link="base_link"/>
+    <child  link="nano_scan_link"/>
+    <!-- Example: 0.40 m behind base_link origin, same height, facing backwards -->
+    <origin xyz="0.50 -0.50 0.60" rpy="0 0 -0.785398"/>
+  </joint>
+
 
  <ros2_control name="rovo_system" type="system">
   <hardware>

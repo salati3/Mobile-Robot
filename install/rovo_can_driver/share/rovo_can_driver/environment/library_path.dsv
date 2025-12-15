@@ -1,1 +1,1 @@
-/home/kevin/Desktop/rovo_ur_ws/build/rovo_can_driver/ament_cmake_environment_hooks/library_path.dsv
+prepend-non-duplicate;LD_LIBRARY_PATH;lib

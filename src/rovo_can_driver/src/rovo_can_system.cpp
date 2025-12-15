@@ -266,7 +266,7 @@ void RovoCanSystem::send_speed_frame()
   if (control_phase_ == ExternalControlPhase::ACTIVE) {
     auto compute = [&](double cmd, uint8_t & dir, int16_t & rpm) {
         // Note: Inverted logic (-1.0) to match physical direction
-        double m_rpm = (cmd * -1.0) * 60.0 / (2.0 * M_PI) * gear_ratio_;
+        double m_rpm = (cmd ) * 60.0 / (2.0 * M_PI) * gear_ratio_;
         if (std::fabs(m_rpm) > 1e-3) {
             dir = (m_rpm >= 0) ? 1 : 2;
             rpm = static_cast<int16_t>(std::round(std::min(std::fabs(m_rpm), max_motor_rpm_)));
@@ -321,7 +321,7 @@ void RovoCanSystem::process_can_frame(const struct can_frame & frame)
         int16_t curr_raw = static_cast<int16_t>(frame.data[6] | (frame.data[7] << 8));
 
         // Convert RPM -> Rad/s (and invert back to match command)
-        const double factor = (2.0 * M_PI) / (60.0 * gear_ratio_) * -1.0;
+        const double factor = (2.0 * M_PI) / (60.0 * gear_ratio_) ;
         hw_velocities_[0] = static_cast<double>(spd_l) * factor;
         hw_velocities_[1] = static_cast<double>(spd_r) * factor;
 

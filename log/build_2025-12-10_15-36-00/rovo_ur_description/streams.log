@@ -1,0 +1,48 @@
+[0.021s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kevin/Desktop/rovo_ur_ws/src/rovo_ur_description -DCMAKE_INSTALL_PREFIX=/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description
+[0.102s] -- The C compiler identification is GNU 13.3.0
+[0.180s] -- The CXX compiler identification is GNU 13.3.0
+[0.206s] -- Detecting C compiler ABI info
+[0.334s] -- Detecting C compiler ABI info - done
+[0.350s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.350s] -- Detecting C compile features
+[0.351s] -- Detecting C compile features - done
+[0.364s] -- Detecting CXX compiler ABI info
+[0.512s] -- Detecting CXX compiler ABI info - done
+[0.529s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.529s] -- Detecting CXX compile features
+[0.530s] -- Detecting CXX compile features - done
+[0.537s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.354s] -- Found Python3: /home/kevin/.pyenv/shims/python3 (found version "3.12.3") found components: Interpreter 
+[1.883s] -- Configuring done (1.9s)
+[1.889s] -- Generating done (0.0s)
+[1.892s] -- Build files have been written to: /home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description
+[1.901s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kevin/Desktop/rovo_ur_ws/src/rovo_ur_description -DCMAKE_INSTALL_PREFIX=/home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description
+[1.903s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description -- -j44 -l44
+[1.961s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description -- -j44 -l44
+[1.964s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description
+[1.974s] -- Install configuration: ""
+[1.975s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/urdf
+[1.976s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/urdf/kiros.xacro
+[1.977s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/urdf/rovo_ur.xacro
+[1.977s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/meshes
+[1.978s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/meshes/rovo.dae
+[2.028s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/rviz
+[2.030s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/rviz/rovo_ur.rviz
+[2.030s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/config
+[2.032s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/config/controllers.yaml
+[2.032s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/ament_index/resource_index/package_run_dependencies/rovo_ur_description
+[2.033s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/ament_index/resource_index/parent_prefix_path/rovo_ur_description
+[2.034s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/environment/ament_prefix_path.sh
+[2.035s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/environment/ament_prefix_path.dsv
+[2.036s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/environment/path.sh
+[2.036s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/environment/path.dsv
+[2.037s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/local_setup.bash
+[2.038s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/local_setup.sh
+[2.038s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/local_setup.zsh
+[2.039s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/local_setup.dsv
+[2.041s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/package.dsv
+[2.042s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/ament_index/resource_index/packages/rovo_ur_description
+[2.043s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/cmake/rovo_ur_descriptionConfig.cmake
+[2.043s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/cmake/rovo_ur_descriptionConfig-version.cmake
+[2.044s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_ur_description/share/rovo_ur_description/package.xml
+[2.045s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description

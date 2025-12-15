@@ -1,0 +1,29 @@
+nano_scan:
+  ros__parameters:
+    # --- NETWORK ---
+    sensor_ip: "192.168.0.33"      # nanoScan3 IP (this worked)
+    host_ip:   "192.168.0.30"     # your PC IP
+    interface_ip: "192.168.0.30"
+    host_udp_port: 6061             # non-zero UDP port
+    use_ros_time: false
+
+    # --- FRAMES ---
+    frame_id: "nano_scan_link"
+
+    # --- TIMING / FOV ---
+    skip: 0                        # publish every scan
+    # let the device config define FOV:
+    derived_settings: false
+    # when derived_settings is true, angle_start/end from device are used,
+    # so we don't need to set them here.
+
+    # --- WHAT TO PUBLISH ---
+    channel_enabled: true
+    general_system_state: false
+    measurement_data: true
+    intrusion_data: false
+    application_io_data: false
+
+    use_persistent_config: false
+
+  

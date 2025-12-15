@@ -1,1 +1,2 @@
-/home/kevin/Desktop/rovo_ur_ws/build/rovo_ur_description/ament_cmake_environment_hooks/local_setup.dsv
+source;share/rovo_ur_description/environment/ament_prefix_path.sh
+source;share/rovo_ur_description/environment/path.sh

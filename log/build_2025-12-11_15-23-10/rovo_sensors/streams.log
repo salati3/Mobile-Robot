@@ -1,0 +1,26 @@
+[0.023s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors -- -j44 -l44
+[0.097s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors -- -j44 -l44
+[0.099s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors
+[0.134s] -- Install configuration: ""
+[0.134s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/config
+[0.134s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/config/micro_scan.yaml
+[0.135s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/config/nano_scan.yaml
+[0.136s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/launch
+[0.136s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/launch/lidars.launch.py
+[0.138s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/lib/rovo_sensors/scan_fixer.py
+[0.138s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/ament_index/resource_index/package_run_dependencies/rovo_sensors
+[0.138s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/ament_index/resource_index/parent_prefix_path/rovo_sensors
+[0.139s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/environment/ament_prefix_path.sh
+[0.139s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/environment/ament_prefix_path.dsv
+[0.139s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/environment/path.sh
+[0.140s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/environment/path.dsv
+[0.140s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/local_setup.bash
+[0.141s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/local_setup.sh
+[0.141s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/local_setup.zsh
+[0.142s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/local_setup.dsv
+[0.142s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/package.dsv
+[0.143s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/ament_index/resource_index/packages/rovo_sensors
+[0.143s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/cmake/rovo_sensorsConfig.cmake
+[0.144s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/cmake/rovo_sensorsConfig-version.cmake
+[0.145s] -- Up-to-date: /home/kevin/Desktop/rovo_ur_ws/install/rovo_sensors/share/rovo_sensors/package.xml
+[0.170s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_sensors

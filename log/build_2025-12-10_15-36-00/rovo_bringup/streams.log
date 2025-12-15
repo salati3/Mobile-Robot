@@ -1,0 +1,55 @@
+[0.027s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kevin/Desktop/rovo_ur_ws/src/rovo_bringup -DCMAKE_INSTALL_PREFIX=/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup
+[0.115s] -- The C compiler identification is GNU 13.3.0
+[0.210s] -- The CXX compiler identification is GNU 13.3.0
+[0.237s] -- Detecting C compiler ABI info
+[0.366s] -- Detecting C compiler ABI info - done
+[0.380s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.381s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.400s] -- Detecting CXX compiler ABI info
+[0.548s] -- Detecting CXX compiler ABI info - done
+[0.581s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.582s] -- Detecting CXX compile features
+[0.583s] -- Detecting CXX compile features - done
+[0.594s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.404s] -- Found Python3: /home/kevin/.pyenv/shims/python3 (found version "3.12.3") found components: Interpreter 
+[1.914s] -- Configuring done (1.9s)
+[1.922s] -- Generating done (0.0s)
+[1.923s] -- Build files have been written to: /home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup
+[1.931s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kevin/Desktop/rovo_ur_ws/src/rovo_bringup -DCMAKE_INSTALL_PREFIX=/home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup
+[1.934s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup -- -j44 -l44
+[1.992s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup -- -j44 -l44
+[1.997s] Invoking command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup
+[2.007s] -- Install configuration: ""
+[2.008s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/launch
+[2.008s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/launch/real_rovo.launch.py
+[2.008s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/launch/view_rovo.launch.py
+[2.009s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/launch/mapping_rovo.launch.py
+[2.009s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/launch/__pycache__
+[2.010s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/launch/__pycache__/view_rovo.launch.cpython-312.pyc
+[2.010s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/launch/nav_rovo.launch.py
+[2.010s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/launch/digital_twin_rovo.launch.py
+[2.011s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/config
+[2.011s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/config/nav2_params.yaml
+[2.011s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/config/controllers.yaml
+[2.012s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/config/slam_toolbox.yaml
+[2.012s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/rviz
+[2.012s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/maps
+[2.013s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/maps/rovo_lab.yaml
+[2.013s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/maps/rovo_lab.pgm
+[2.013s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/ament_index/resource_index/package_run_dependencies/rovo_bringup
+[2.014s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/ament_index/resource_index/parent_prefix_path/rovo_bringup
+[2.014s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/environment/ament_prefix_path.sh
+[2.014s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/environment/ament_prefix_path.dsv
+[2.014s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/environment/path.sh
+[2.015s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/environment/path.dsv
+[2.016s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/local_setup.bash
+[2.018s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/local_setup.sh
+[2.018s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/local_setup.zsh
+[2.019s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/local_setup.dsv
+[2.020s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/package.dsv
+[2.020s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/ament_index/resource_index/packages/rovo_bringup
+[2.020s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/cmake/rovo_bringupConfig.cmake
+[2.021s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/cmake/rovo_bringupConfig-version.cmake
+[2.021s] -- Installing: /home/kevin/Desktop/rovo_ur_ws/install/rovo_bringup/share/rovo_bringup/package.xml
+[2.022s] Invoked command in '/home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kevin/Desktop/rovo_ur_ws/build/rovo_bringup
